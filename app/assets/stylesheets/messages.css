@@ -1,0 +1,41 @@
+.wrapper{
+  display: flex;
+}
+.side-bar{
+  height: 100vh;
+  width: 300px;
+  background-color: #253141;
+  
+}
+.user-name{
+  height: 100px;
+  padding: 0 20px;
+}
+.room{
+  height: calc(100vh - 100px);
+  background-color: #273E51;
+  padding: 0 20px;
+}
+.main-chat{
+  width: calc(100vw - 300px);
+  background-color: #ffffff;
+  
+
+}
+.chat-name{
+  height: 100px;
+  padding: 0 40px;
+
+}
+.chat-room{
+  height: calc(100vh - 100px - 90px);
+  background-color: #FAFAFA;
+  padding:46px 40px 0 40px;
+
+
+}
+.form{
+  height: 90px;
+  background-color: #DDDDDD;
+  padding: 20px 40px;
+}
