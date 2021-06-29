@@ -7,14 +7,46 @@
   background-color: #253141;
   
 }
-.user-name{
+.left-content{
   height: 100px;
   padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
 }
-.room{
+.contents a{
+  font-size: 16px;
+  color: #FAFAFA;
+  text-decoration: none;
+}
+.chat-make a{
+  border: 1px solid lightblue;
+  font-size: 10px;
+  color: deepskyblue;
+  padding: 14px;
+  text-decoration: none;
+
+}
+
+.user-name{
+  font-size: 16px;
+  color: #fafafa;
+}
+
+.rooms{
   height: calc(100vh - 100px);
   background-color: #273E51;
   padding: 0 20px;
+  overflow: scroll;
+}
+.room{
+  padding: 20px 0 40px;
+}
+.room-name a{
+  color: white;
+  text-decoration: none;
+  
 }
 .main-chat{
   width: calc(100vw - 300px);
