@@ -7,21 +7,7 @@
   </diV>
 </div>
 <diV class="chat-room">
-  <diV class="messages">
-    <div class="chat-message">
-      <div class="chat-user">
-        Tom
-      </diV>
-      <div class="chat-time">
-        2020/3/31(Wed) 12:43:30
-      </diV>
-    </diV>
-    <div class="lower-message">
-      <diV class="message">
-        おはよう
-      </diV>
-    </diV>
- </diV>
+  <%= render partial: 'message', collection: @messages %>
 </diV>
 <%=  form_with model: [@room, @message], class: "form", local: true do |f| %>
   <div class="form-input">
